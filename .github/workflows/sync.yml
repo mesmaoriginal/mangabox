@@ -1,212 +1,34 @@
-Get started with GitHub Actions
-Build, test, and deploy your code. Make code reviews, branch management, and issue triaging work the way you want. Select a workflow to get started.
+name: mangabox-sync
 
-Skip this and set up a workflow yourself 
+on:
+  schedule:
+    - cron: "7 * * * *"
+  workflow_dispatch:
+    inputs:
+      args:
+        description: "arguments"
+        default: "--all"
 
-Search workflows
-Suggested for this repository
-Simple workflow
-By GitHub
+concurrency:
+  group: mangabox-sync
+  cancel-in-progress: false
 
-Simple workflow logo
-Start with a file with the minimum necessary structure.
-
-Deployment
-View alldeployment workflows
-Deploy Node.js to Azure Web App
-By Microsoft Azure
-
-Deploy Node.js to Azure Web App logo
-Build a Node.js project and deploy it to an Azure Web App.
-
-Deployment
-Deploy to Amazon ECS
-By Amazon Web Services
-
-Deploy to Amazon ECS logo
-Deploy a container to an Amazon ECS service powered by AWS Fargate or Amazon EC2.
-
-Deployment
-Build and Deploy to GKE
-By Google Cloud
-
-Build and Deploy to GKE logo
-Build a docker container, publish it to Google Container Registry, and deploy to GKE.
-
-Deployment
-Terraform
-By HashiCorp
-
-Terraform logo
-Set up Terraform CLI in your GitHub Actions workflow.
-
-Deployment
-Deploy to Alibaba Cloud ACK
-By Alibaba Cloud
-
-Deploy to Alibaba Cloud ACK logo
-Deploy a container to Alibaba Cloud Container Service for Kubernetes (ACK).
-
-Deployment
-Deploy to IBM Cloud Kubernetes Service
-By IBM
-
-Deploy to IBM Cloud Kubernetes Service logo
-Build a docker container, publish it to IBM Cloud Container Registry, and deploy to IBM Cloud Kubernetes Service.
-
-Deployment
-Tencent Kubernetes Engine
-By Tencent Cloud
-
-Tencent Kubernetes Engine logo
-This workflow will build a docker container, publish and deploy it to Tencent Kubernetes Engine (TKE).
-
-Deployment
-OpenShift
-By Red Hat
-
-OpenShift logo
-Build a Docker-based project and deploy it to OpenShift.
-
-Deployment
-Security
-View allsecurity workflows
-CodeQL Analysis
-By GitHub
-
-Security analysis from GitHub for C, C++, C#, Go, Java, JavaScript, TypeScript, Python, Ruby, Kotlin and Swift developers.
-
-Code scanning
-CodeScan
-By CodeScan Enterprises, LLC
-
-CodeScan logo
-CodeScan allows for better visibility on your code quality checks based on your custom rulesets.
-
-Code scanning
-Endor Labs scan
-By Endor Labs
-
-Endor Labs scan logo
-Identify, prioritize and address open source and code governance issues with Endor Labs.
-
-Code scanning
-tfsec
-By tfsec
-
-tfsec logo
-A static analysis security scanner for your Terraform code. Discover problems with your infrastructure before hackers do.
-
-Code scanning
-Continuous integration
-View allcontinuous integration workflows
-R package
-By GitHub Actions
-
-R package logo
-Create and test an R package on multiple R versions.
-
-R
-Node.js
-By GitHub Actions
-
-Node.js logo
-Build and test a Node.js project with npm.
-
-JavaScript
-Django
-By GitHub Actions
-
-Django logo
-Build and Test a Django Project
-
-Python
-CMake based, multi-platform projects
-By GitHub Actions
-
-CMake based, multi-platform projects logo
-Build and test a CMake based project on multiple platforms.
-
-C
-Automation
-View allautomation workflows
-Stale
-By GitHub Actions
-
-Checks for stale issues and pull requests
-
-Automation
-Manual workflow
-By GitHub Actions
-
-Simple workflow that is manually triggered.
-
-Automation
-AI issue summary
-By GitHub Actions
-
-Summarizes new issues
-
-Automation
-Labeler
-By GitHub Actions
-
-Labels pull requests based on the files changed
-
-Automation
-Pages
-View allPages workflows
-Static HTML
-By GitHub Actions
-
-Static HTML logo
-Deploy static files in a repository without a build.
-
-HTML
-Next.js
-By GitHub Actions
-
-Next.js logo
-Package a Next.js site.
-
-mdBook
-By GitHub Actions
-
-mdBook logo
-Package a site using mdBook.
-
-Hugo
-By GitHub Actions
-
-Hugo logo
-Package a Hugo site.
-
-Browse all categories
-Deployment
-Security
-Continuous integration
-Automation
-Pages
-Learn more about GitHub Actions
-Getting started and core concepts
-New to Actions? Start here. Learn the core concepts and how to get started.
-
-Configuring and managing workflows
-Create custom workflows to control your project's life cycle processes.
-
-Any language
-Language and framework guides
-Guides for projects written in many programming languages.
-
-Footer
-© 2026 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Community
-Docs
-Contact
-Manage cookies
-Do not share my personal information
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Run
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          CHANNEL: ${{ secrets.CHANNEL }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+          RUN_ARGS: ${{ github.event.inputs.args || '--all' }}
+        run: python mangabox_to_telegram.py $RUN_ARGS --max-minutes 320 --workers 4
