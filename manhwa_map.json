@@ -1,0 +1,410 @@
+{
+  "black-haze": {
+    "slug": "black-haze",
+    "id": "8",
+    "en": "Black Haze",
+    "fa": "مه سیاه",
+    "rating": "۹.۳",
+    "status": "در حال انتشار",
+    "genres": [
+      "اکشن",
+      "فانتزی",
+      "عاشقانه",
+      "درام",
+      "کمدی"
+    ],
+    "year": "",
+    "cover_url": "https://mangabox.ir/uploads/covers/cover_3bd323e56b7310a7.webp"
+  },
+  "chainsaw-man": {
+    "slug": "chainsaw-man",
+    "id": "10",
+    "en": "Chainsaw Man",
+    "fa": "مرد اره‌برقی",
+    "rating": "۹.۰",
+    "status": "در حال انتشار",
+    "genres": [
+      "اکشن",
+      "فانتزی",
+      "عاشقانه",
+      "درام",
+      "کمدی"
+    ],
+    "year": "",
+    "cover_url": "https://mangabox.ir/uploads/covers/cover_0c31681c21ebaebe.webp"
+  },
+  "honey-why-can-t-we-get-a-divorce": {
+    "slug": "honey-why-can-t-we-get-a-divorce",
+    "id": "18",
+    "en": "Honey Why Can't We Get a Divorce",
+    "fa": "عزیزم چرا نمیتونیم طلاق بگیریم",
+    "rating": "۱۰.۰",
+    "status": "در حال انتشار",
+    "genres": [
+      "اکشن",
+      "فانتزی",
+      "عاشقانه",
+      "درام",
+      "کمدی"
+    ],
+    "year": "",
+    "cover_url": "https://mangabox.ir/uploads/covers/cover_4a08ec2473c299cf.webp"
+  },
+  "i-am-a-child-of-this-house": {
+    "slug": "i-am-a-child-of-this-house",
+    "id": "33",
+    "en": "I Am a Child of This House",
+    "fa": "من بچه این عمارتم",
+    "rating": "۹.۰",
+    "status": "در حال انتشار",
+    "genres": [
+      "اکشن",
+      "فانتزی",
+      "عاشقانه",
+      "درام",
+      "کمدی"
+    ],
+    "year": "",
+    "cover_url": "https://mangabox.ir/uploads/covers/cover_00b6fbc1e6385129.webp"
+  },
+  "i-became-the-hero-s-mom": {
+    "slug": "i-became-the-hero-s-mom",
+    "id": "17",
+    "en": "I Became the Hero's Mom",
+    "fa": "من مادر قهرمان شدم",
+    "rating": "۹.۰",
+    "status": "در حال انتشار",
+    "genres": [
+      "اکشن",
+      "فانتزی",
+      "عاشقانه",
+      "درام",
+      "کمدی"
+    ],
+    "year": "",
+    "cover_url": "https://mangabox.ir/uploads/covers/cover_bd6d2d364639aec3.webp"
+  },
+  "i-shall-master-this-family": {
+    "slug": "i-shall-master-this-family",
+    "id": "36",
+    "en": "I Shall Master This Family",
+    "fa": "من تو این زندگی رئیس خانواده میشم",
+    "rating": "۹.۰",
+    "status": "پایان یافته",
+    "genres": [
+      "اکشن",
+      "فانتزی",
+      "عاشقانه",
+      "درام",
+      "کمدی"
+    ],
+    "year": "",
+    "cover_url": "https://mangabox.ir/uploads/covers/cover_6053854f44c7388a.webp"
+  },
+  "im-not-that-kind-of-talent": {
+    "slug": "im-not-that-kind-of-talent",
+    "id": "19",
+    "en": "Im Not That Kind of Talent",
+    "fa": "من همچین شخص با استعدادی نیستم",
+    "rating": "۸.۰",
+    "status": "در حال انتشار",
+    "genres": [
+      "اکشن",
+      "فانتزی",
+      "عاشقانه",
+      "درام",
+      "کمدی"
+    ],
+    "year": "",
+    "cover_url": "https://mangabox.ir/uploads/covers/cover_2e4356c6b4f05f50.webp"
+  },
+  "killing-my-love": {
+    "slug": "killing-my-love",
+    "id": "29",
+    "en": "Killing my love",
+    "fa": "عشقم را بکش",
+    "rating": "۹.۰",
+    "status": "در حال انتشار",
+    "genres": [
+      "اکشن",
+      "فانتزی",
+      "عاشقانه",
+      "درام",
+      "کمدی"
+    ],
+    "year": "",
+    "cover_url": "https://mangabox.ir/uploads/covers/cover_2a0182a8e2f16743.webp"
+  },
+  "magic-emperor": {
+    "slug": "magic-emperor",
+    "id": "4",
+    "en": "Magic Emperor",
+    "fa": "امپراطور جادو",
+    "rating": "۹.۰",
+    "status": "در حال انتشار",
+    "genres": [
+      "اکشن",
+      "فانتزی",
+      "عاشقانه",
+      "درام",
+      "کمدی"
+    ],
+    "year": "",
+    "cover_url": "https://mangabox.ir/uploads/covers/cover_6678356b7f864d1c.webp"
+  },
+  "maybe-meant-to-be": {
+    "slug": "maybe-meant-to-be",
+    "id": "31",
+    "en": "Maybe Meant To Be",
+    "fa": "شاید سرنوشت بوده",
+    "rating": "۹.۰",
+    "status": "در حال انتشار",
+    "genres": [
+      "اکشن",
+      "فانتزی",
+      "عاشقانه",
+      "درام",
+      "کمدی"
+    ],
+    "year": "",
+    "cover_url": "https://mangabox.ir/uploads/covers/cover_fe9479ee71eee553.webp"
+  },
+  "mother-s-contract-marriage": {
+    "slug": "mother-s-contract-marriage",
+    "id": "22",
+    "en": "Mother's Contract Marriage",
+    "fa": "مادرم ازدواج قراردادی کرده",
+    "rating": "۹.۵",
+    "status": "در حال انتشار",
+    "genres": [
+      "اکشن",
+      "فانتزی",
+      "عاشقانه",
+      "درام",
+      "کمدی"
+    ],
+    "year": "",
+    "cover_url": "https://mangabox.ir/uploads/covers/cover_f896c6bd9f28aa57.webp"
+  },
+  "my-possession-became-a-ghost-story": {
+    "slug": "my-possession-became-a-ghost-story",
+    "id": "14",
+    "en": "My Possession Became a Ghost Story",
+    "fa": "ماجرای تسخیر من به داستانی درباره‌ی ارواح بدل شد",
+    "rating": "۸.۷",
+    "status": "در حال انتشار",
+    "genres": [
+      "اکشن",
+      "فانتزی",
+      "عاشقانه",
+      "درام",
+      "کمدی"
+    ],
+    "year": "",
+    "cover_url": "https://mangabox.ir/uploads/covers/cover_1edd2dd339a6c815.webp"
+  },
+  "myst-might-mayhem": {
+    "slug": "myst-might-mayhem",
+    "id": "23",
+    "en": "Myst Might Mayhem",
+    "fa": "شیطان آشوب",
+    "rating": "۷.۰",
+    "status": "در حال انتشار",
+    "genres": [
+      "اکشن",
+      "فانتزی",
+      "عاشقانه",
+      "درام",
+      "کمدی"
+    ],
+    "year": "",
+    "cover_url": "https://mangabox.ir/uploads/covers/cover_21a2631a439bf478.webp"
+  },
+  "nano-machine": {
+    "slug": "nano-machine",
+    "id": "6",
+    "en": "Nano Machine",
+    "fa": "نانو ماشین",
+    "rating": "۹.۵",
+    "status": "در حال انتشار",
+    "genres": [
+      "اکشن",
+      "فانتزی",
+      "عاشقانه",
+      "درام",
+      "کمدی"
+    ],
+    "year": "",
+    "cover_url": "https://mangabox.ir/uploads/covers/cover_dbff7082b2deb8eb.jpg"
+  },
+  "overgeared": {
+    "slug": "overgeared",
+    "id": "35",
+    "en": "Overgeared",
+    "fa": "تا دندان مسلح",
+    "rating": "۰.۰",
+    "status": "در حال انتشار",
+    "genres": [
+      "اکشن",
+      "فانتزی",
+      "عاشقانه",
+      "درام",
+      "کمدی"
+    ],
+    "year": "",
+    "cover_url": "https://mangabox.ir/uploads/covers/cover_4230b05346362efc.webp"
+  },
+  "pick-me-up-infinite-gacha": {
+    "slug": "pick-me-up-infinite-gacha",
+    "id": "7",
+    "en": "Pick Me Up Infinite Gacha",
+    "fa": "منو انتخاب کن گاچا بیکران",
+    "rating": "۸.۰",
+    "status": "در حال انتشار",
+    "genres": [
+      "اکشن",
+      "فانتزی",
+      "عاشقانه",
+      "درام",
+      "کمدی"
+    ],
+    "year": "",
+    "cover_url": "https://mangabox.ir/uploads/covers/cover_0aa4280e9d542f63.webp"
+  },
+  "swordmasters-youngest-son": {
+    "slug": "swordmasters-youngest-son",
+    "id": "5",
+    "en": "Swordmasters Youngest Son",
+    "fa": "جوان ترین پسر استاد شمشیرزنی",
+    "rating": "۹.۰",
+    "status": "در حال انتشار",
+    "genres": [
+      "اکشن",
+      "فانتزی",
+      "عاشقانه",
+      "درام",
+      "کمدی"
+    ],
+    "year": "",
+    "cover_url": "https://mangabox.ir/uploads/covers/cover_c7a28977f1ff93b6.webp"
+  },
+  "the-beginning-after-the-end": {
+    "slug": "the-beginning-after-the-end",
+    "id": "20",
+    "en": "The Beginning After the End",
+    "fa": "آغاز پس از پایان",
+    "rating": "۹.۰",
+    "status": "در حال انتشار",
+    "genres": [
+      "اکشن",
+      "فانتزی",
+      "عاشقانه",
+      "درام",
+      "کمدی"
+    ],
+    "year": "",
+    "cover_url": "https://mangabox.ir/uploads/covers/cover_c4bd788c9ab7b6be.webp"
+  },
+  "the-extras-academy-survival-guide": {
+    "slug": "the-extras-academy-survival-guide",
+    "id": "27",
+    "en": "The Extras Academy Survival Guide",
+    "fa": "چگونه در آکادمی زنده بمانیم",
+    "rating": "۷.۰",
+    "status": "در حال انتشار",
+    "genres": [
+      "اکشن",
+      "فانتزی",
+      "عاشقانه",
+      "درام",
+      "کمدی"
+    ],
+    "year": "",
+    "cover_url": "https://mangabox.ir/uploads/covers/cover_afb0793c411b8a91.webp"
+  },
+  "the-forgotten-field": {
+    "slug": "the-forgotten-field",
+    "id": "21",
+    "en": "The Forgotten Field",
+    "fa": "سرزمین فراموش شده",
+    "rating": "۱۰.۰",
+    "status": "در حال انتشار",
+    "genres": [
+      "اکشن",
+      "فانتزی",
+      "عاشقانه",
+      "درام",
+      "کمدی"
+    ],
+    "year": "",
+    "cover_url": "https://mangabox.ir/uploads/covers/cover_a8645648554dee11.webp"
+  },
+  "the-shepherd-wizard": {
+    "slug": "the-shepherd-wizard",
+    "id": "12",
+    "en": "The Shepherd Wizard",
+    "fa": "چوپان جادوگر",
+    "rating": "۹.۰",
+    "status": "در حال انتشار",
+    "genres": [
+      "اکشن",
+      "فانتزی",
+      "عاشقانه",
+      "درام",
+      "کمدی"
+    ],
+    "year": "",
+    "cover_url": "https://mangabox.ir/uploads/covers/cover_412b4aeda5d822e6.webp"
+  },
+  "the-stellar-swordmaster": {
+    "slug": "the-stellar-swordmaster",
+    "id": "24",
+    "en": "The Stellar Swordmaster",
+    "fa": "استاد شمشیرزنی دربرگیرنده ستاره",
+    "rating": "۸.۰",
+    "status": "در حال انتشار",
+    "genres": [
+      "اکشن",
+      "فانتزی",
+      "عاشقانه",
+      "درام",
+      "کمدی"
+    ],
+    "year": "",
+    "cover_url": "https://mangabox.ir/uploads/covers/cover_45d89836f8e446d4.webp"
+  },
+  "tyrants-guardian-is-an-evil-witch": {
+    "slug": "tyrants-guardian-is-an-evil-witch",
+    "id": "38",
+    "en": "Tyrants Guardian Is an Evil Witch",
+    "fa": "نگهبان ظالم جادوگری پلید است",
+    "rating": "۰.۰",
+    "status": "در حال انتشار",
+    "genres": [
+      "اکشن",
+      "فانتزی",
+      "عاشقانه",
+      "درام",
+      "کمدی"
+    ],
+    "year": "",
+    "cover_url": "https://mangabox.ir/uploads/covers/cover_69bd507e7473d63e.webp"
+  },
+  "villainess-turns-the-hourglass": {
+    "slug": "villainess-turns-the-hourglass",
+    "id": "28",
+    "en": "villainess turns the hourglass",
+    "fa": "بانوى شرور ساعت شنى را وارونه ميكند",
+    "rating": "۸.۰",
+    "status": "پایان یافته",
+    "genres": [
+      "اکشن",
+      "فانتزی",
+      "عاشقانه",
+      "درام",
+      "کمدی"
+    ],
+    "year": "",
+    "cover_url": "https://mangabox.ir/uploads/covers/cover_8322fd19d440fe69.webp"
+  }
+}
