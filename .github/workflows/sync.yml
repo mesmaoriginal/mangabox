@@ -2,16 +2,16 @@ name: mangabox-sync
 
 on:
   schedule:
-    - cron: "7 * * * *"        # هر ساعت؛ اگر اجرای قبلی هنوز در جریان باشد، بعد از تمام شدنش شروع می‌شود
+    - cron: "7 * * * *"
   workflow_dispatch:
     inputs:
       args:
-        description: "آرگومان‌ها (برای تست: --slug black-haze --chapters 1)"
+        description: "arguments"
         default: "--all"
 
 concurrency:
   group: mangabox-sync
-  cancel-in-progress: false    # دو اجرا هم‌زمان نشوند
+  cancel-in-progress: false
 
 jobs:
   sync:
