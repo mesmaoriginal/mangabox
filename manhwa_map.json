@@ -406,5 +406,22 @@
     ],
     "year": "",
     "cover_url": "https://mangabox.ir/uploads/covers/cover_8322fd19d440fe69.webp"
+  },
+  "solo-leveling": {
+    "slug": "solo-leveling",
+    "id": "41",
+    "en": "Solo Leveling",
+    "fa": "تک رو",
+    "rating": "۰.۰",
+    "status": "پایان یافته",
+    "genres": [
+      "اکشن",
+      "فانتزی",
+      "عاشقانه",
+      "درام",
+      "کمدی"
+    ],
+    "year": "",
+    "cover_url": "https://mangabox.ir/uploads/covers/cover_92a0bf0eee0f4f03.webp"
   }
 }
