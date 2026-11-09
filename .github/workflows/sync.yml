@@ -13,6 +13,9 @@ concurrency:
   group: mangabox-sync
   cancel-in-progress: false
 
+permissions:
+  contents: write
+
 jobs:
   sync:
     runs-on: ubuntu-latest
@@ -28,7 +31,17 @@ jobs:
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           CHANNEL: ${{ secrets.CHANNEL }}
-          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
           RUN_ARGS: ${{ github.event.inputs.args || '--all' }}
         run: python mangabox_to_telegram.py $RUN_ARGS --max-minutes 320 --workers 4
+      - name: Save progress
+        if: always()
+        run: |
+          git config user.name "sync-bot"
+          git config user.email "sync-bot@users.noreply.github.com"
+          if [ -f progress.json ]; then git add progress.json; fi
+          if [ -f manhwa_map.json ]; then git add manhwa_map.json; fi
+          if ! git diff --cached --quiet; then
+            git commit -m "update progress"
+            git pull --rebase
+            git push
+          fi
